@@ -25,4 +25,17 @@
     width: 20%;
   }
 
+  /*body*/
+  body {
+    background-color: rgb(216, 64, 64);
+  }
+
+  /*H1*/
+  h1 {text-align: center;
+  }
+  p {text-align: center;
+  }
+  div {text-align: center;
+  }
+
  
