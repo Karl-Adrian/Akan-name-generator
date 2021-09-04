@@ -37,3 +37,8 @@ p {
 div {
   text-align: center;
 }
+
+/*paragraph tags*/
+.culture {
+  color: gold;
+}
