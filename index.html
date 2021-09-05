@@ -26,15 +26,20 @@
 
     </div>
 
-
-        <form >
-            <input type="radio" male name="gender" value="male">
-                <label for="male">Male</label>
-                <br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
-                <button class="button" id="frmAkan" onClick=checkAkan()>Submit</button>
-        </form>
+        <div class="container">
+            <form >
+                 <input type="date" id="dateOfBirth" />
+        <br />
+        <div>
+          <input type="radio" id="male" value="male" name="gender" />
+          <label for="male">Male</label>
+          <br />
+          <input type="radio" id="female" value="female" name="gender" />
+          <label for="female">Female</label>
+        </div>
+        <br />
+        <button type="submit" class="submit__button">Submit</button>
+            </form>
     
         <script src="./app.js"></script>
 
